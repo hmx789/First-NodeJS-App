@@ -1,0 +1,29 @@
+{
+  "name": "first-nodejs-app",
+  "version": "1.0.0",
+  "description": "Displaying weather of different cities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmx789/First-NodeJS-App.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Hassan Murtaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmx789/First-NodeJS-App/issues"
+  },
+  "homepage": "https://github.com/hmx789/First-NodeJS-App#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "yargs": "^11.0.0"
+  }
+}
