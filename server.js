@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const request = require('request')
 const app = express()
 
-let apiKey = '85d2d208623eed8f7bfa7e8ccd6a8aa2';
+let apiKey = process.env.OPEN_WEATHER_KEY;
 
 
 app.use(express.static('public'))  // To use the .css file
